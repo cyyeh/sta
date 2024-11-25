@@ -19,6 +19,7 @@ class CodeRewriteOutputSchema(BaseIOSchema):
 
     rewritten_code: str
     rewritten_test_code: str
+    rewritten_dependencies: str
 
 
 code_rewrite_agent = BaseAgent(
