@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sta"
+version = "0.1.0"
+description = "Semantic Transpiler Agent: Effortlessly migrate your codebase between frameworks with STA."
+authors = ["ChihYu Yeh <chihyu.jimmy.yeh@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+atomic-agents = "^1.0.15"
+python-dotenv = "^1.0.1"
+orjson = "^3.10.12"
+
+
+[tool.poetry.group.dev.dependencies]
+flask = "^3.1.0"
+fastapi = "^0.115.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
