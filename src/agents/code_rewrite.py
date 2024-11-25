@@ -18,6 +18,7 @@ class CodeRewriteOutputSchema(BaseIOSchema):
     """Output schema for the code rewrite agent"""
 
     rewritten_code: str
+    rewritten_test_code: str
 
 
 code_rewrite_agent = BaseAgent(
